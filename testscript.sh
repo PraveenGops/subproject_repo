@@ -1,7 +1,7 @@
 #! /bin/bash
 
-branch=$(git rev-parse --abbrev-ref HEAD)
-echo $branch
+#branch=$(git rev-parse --abbrev-ref HEAD)
+#echo $branch
 if [ "$branch" == "dev_region" ]; then
 echo "building image from docker-compose-file"
 docker-compose build
