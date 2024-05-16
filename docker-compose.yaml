@@ -4,4 +4,4 @@ services:
   zen_app:
     build: .
     ports:
-     - 9090:80
+     - 80:80
